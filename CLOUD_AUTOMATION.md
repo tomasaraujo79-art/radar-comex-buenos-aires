@@ -2,6 +2,14 @@
 
 Esta variante corre aunque la PC este apagada usando GitHub Actions y publica un sitio estatico en GitHub Pages.
 
+Repositorio:
+
+- https://github.com/tomasaraujo79-art/radar-comex-buenos-aires
+
+Sitio publico:
+
+- https://tomasaraujo79-art.github.io/radar-comex-buenos-aires/
+
 ## Que queda automatizado
 
 - Horario: todos los dias a las 08:00 de Buenos Aires.
@@ -11,11 +19,8 @@ Esta variante corre aunque la PC este apagada usando GitHub Actions y publica un
 
 ## Pasos para activarlo
 
-1. Crear un repositorio en GitHub y subir esta carpeta.
-2. En GitHub, ir a `Settings > Pages`.
-3. En `Build and deployment`, elegir `GitHub Actions`.
-4. Ir a `Actions > Radar COMEX cloud`.
-5. Ejecutar `Run workflow` una vez para publicar el primer sitio.
+1. Ir a `Actions > Radar COMEX cloud`.
+2. Ejecutar `Run workflow` si queres forzar una actualizacion manual.
 
 Despues de eso, GitHub lo corre solo todos los dias a las 08:00 aunque tu PC este apagada.
 
