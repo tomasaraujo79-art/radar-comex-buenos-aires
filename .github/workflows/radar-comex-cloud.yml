@@ -1,0 +1,60 @@
+name: Radar COMEX cloud
+
+on:
+  schedule:
+    # 08:00 America/Argentina/Buenos_Aires is 11:00 UTC.
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar-comex-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Python dependencies
+        working-directory: radar_comex
+        run: python -m pip install -r requirements.txt
+
+      - name: Test radar
+        working-directory: radar_comex
+        run: python -m pytest -q
+
+      - name: Run radar
+        working-directory: radar_comex
+        run: python -m src.run_radar
+
+      - name: Export public static site
+        working-directory: radar_comex
+        run: python -m src.export_static_site --output-dir ../cloud_site
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: cloud_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/*.db
+data/*.sqlite
+logs/*.log
+reports/*.md
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+

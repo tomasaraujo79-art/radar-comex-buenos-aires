@@ -1,0 +1,15 @@
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/.env
+**/data/*.sqlite
+**/data/*.db
+**/logs/*.log
+**/reports/*.md
+radar_comex_public_site/
+*.tgz

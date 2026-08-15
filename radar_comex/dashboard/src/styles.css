@@ -1,0 +1,292 @@
+:root {
+  color: #20252b;
+  background: #f4f6f7;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.topbar,
+.filters,
+.metrics,
+.workspace {
+  display: grid;
+  gap: 14px;
+}
+
+.topbar {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.topbar p {
+  color: #5f6b76;
+  margin-top: 5px;
+}
+
+.iconButton,
+.filters button {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #cbd3d9;
+  background: #ffffff;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+.metric {
+  background: #ffffff;
+  border: 1px solid #dbe1e6;
+  border-radius: 8px;
+  padding: 13px 14px;
+}
+
+.metric span {
+  display: block;
+  color: #697581;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.metric strong {
+  font-size: 22px;
+}
+
+.filters {
+  grid-template-columns: minmax(260px, 1fr) 260px 140px;
+  margin-bottom: 16px;
+}
+
+.searchBox,
+.range,
+.toggle {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #d7dee4;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.searchBox input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font: inherit;
+}
+
+.range input {
+  width: 100%;
+}
+
+.toggle {
+  justify-content: center;
+  font-size: 14px;
+}
+
+.workspace {
+  grid-template-columns: minmax(0, 1fr) 380px;
+  align-items: start;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+}
+
+.job,
+.empty,
+.mapPanel {
+  background: #ffffff;
+  border: 1px solid #dbe1e6;
+  border-radius: 8px;
+}
+
+.job {
+  padding: 16px;
+}
+
+.job.rejected,
+.job.expired {
+  opacity: 0.72;
+}
+
+.jobHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 50px;
+  gap: 12px;
+}
+
+.job h2 {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.jobHead p,
+.description,
+.actions {
+  color: #5f6b76;
+}
+
+.score {
+  height: 44px;
+  border-radius: 8px;
+  background: #17324d;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.chips span,
+.legend span {
+  border: 1px solid #d9e1e7;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 12px;
+  color: #34414c;
+  background: #f6f8f9;
+}
+
+.description {
+  line-height: 1.45;
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #0d5c8d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.empty {
+  padding: 24px;
+  color: #65717c;
+}
+
+.mapPanel {
+  padding: 14px;
+  position: sticky;
+  top: 16px;
+}
+
+.mapTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.mapCanvas {
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #d7dee4;
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(23, 50, 77, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(23, 50, 77, 0.08) 1px, transparent 1px),
+    #eef3f6;
+  background-size: 34px 34px;
+}
+
+.belgrano {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: #17324d;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.pin {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #d84b38;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px rgba(32, 37, 43, 0.18);
+}
+
+.legend {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 14px;
+  }
+
+  .metrics,
+  .filters,
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .mapPanel {
+    position: static;
+  }
+}

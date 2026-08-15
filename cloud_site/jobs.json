@@ -1,0 +1,192 @@
+{
+  "generated_at": "2026-08-15T02:00:17",
+  "reference_location": "Belgrano, CABA, Argentina",
+  "max_travel_minutes": 60,
+  "latest_run": {
+    "started_at": "2026-08-15T01:59:20",
+    "finished_at": "2026-08-15T02:00:11",
+    "analyzed": 11,
+    "accepted": 9,
+    "rejected_experience": 0,
+    "rejected_distance": 0,
+    "duplicates": 11,
+    "errors": 28
+  },
+  "jobs": [
+    {
+      "title": "Foreign Trade Trainee",
+      "company": "PUMA Group",
+      "location": "Buenos Aires y alrededores",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/foreign-trade-trainee-at-puma-group-4441229899",
+      "score": 76,
+      "travel_minutes": 16.0,
+      "distance_km": 11.3,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Asistir al equipo de Comercio Exterior en la gestion operativa y administrativa de importaciones. Practicas, media jornada. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano",
+        "Coincide con el objetivo laboral del CV: importaciones"
+      ]
+    },
+    {
+      "title": "Pasantia para sector Maritimo",
+      "company": "DHL Global Forwarding",
+      "location": "Retiro, CABA",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasant%C3%ADa-para-sector-mar%C3%ADtimo-at-dhl-global-forwarding-4446540152",
+      "score": 76,
+      "travel_minutes": 21.0,
+      "distance_km": 11.2,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Pasantia para sector Maritimo. Estudiantes de Comercio Internacional, horario 10 a 14, modalidad hibrida 3 presencial y 2 home office, ingles intermedio. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano",
+        "Aprovecha formacion en RRII/comercio internacional: Comercio Internacional",
+        "Requiere o valora ingles, fortaleza del CV"
+      ]
+    },
+    {
+      "title": "Pasante Comercio Exterior y Logistica",
+      "company": "CNH",
+      "location": "Buenos Aires y alrededores",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasante-comercio-exterior-y-logistica-at-cnh-4428144279",
+      "score": 68,
+      "travel_minutes": 16.0,
+      "distance_km": 11.3,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Pasante Comercio Exterior y Logistica. Rol de entrada relacionado con comercio exterior y logistica. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    },
+    {
+      "title": "Pasante Comercio Exterior",
+      "company": "Albaugh Latam South",
+      "location": "San Isidro, Provincia de Buenos Aires",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasante-comercio-exterior-at-albaugh-latam-south-4445953516",
+      "score": 68,
+      "travel_minutes": 23.0,
+      "distance_km": 16.1,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Pasante Comercio Exterior en San Isidro. Rol de pasantia relacionado a comercio exterior. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    },
+    {
+      "title": "Pasante para Aduana",
+      "company": "DHL Global Forwarding",
+      "location": "Retiro, CABA",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasante-para-aduana-at-dhl-global-forwarding-4441909813",
+      "score": 68,
+      "travel_minutes": 21.0,
+      "distance_km": 11.2,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Pasante de Aduana en Retiro, CABA, multinacional de logistica global. Rol de pasantia para sector aduana. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    },
+    {
+      "title": "Operations Intern",
+      "company": "Red Bull",
+      "location": "Nunez, CABA",
+      "source": "Red Bull Jobs",
+      "url": "https://jobs.redbull.com/ar-es/operations-intern-ref33085k?lang=en",
+      "score": 68,
+      "travel_minutes": 8.0,
+      "distance_km": 2.3,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Support the import process, prepare import documentation, follow up shipments, import cost calculations and customs broker follow-up. Internship role in operations. As an Operations Intern, you will be part of the team that ensures Red Bull products are delivered to the right place at the right time. You will have the opportunity to gain hands-on experience across different supply chain processes, from coordinating imports to managing inventory and supporting invoicing activities, while working cross-functionally with different areas of the company and external business partners.We are looking for an organized, analytical, and eager-to-learn individual who enjoys challenges and wants to grow in a dynamic environment where every task has a direct impact on the business. Operations Intern - Buenos Aires - Red Bull Jobs Argentina Operations Part-time Operations Intern Buenos Aires, Argentina Apply Now Share As an Operations Intern, you will be part of the team that ensures Red Bull products are delivered to the right place at the right time. You will have the opportunity to gain hands-on experience across different supply chain processes, from coordinating imports to managing inventory and supporting invoicing activities, while working cross-functionally with different areas of the company and external business partners. We are looking for an organized, analytical, and eager-to-learn individual who enjoys challenges and wants to grow in a dynamic environment where every task has a direct impact on the business. RESPONSIBILITIES Areas that play to your strengths All the responsibilities we'll trust you with: Expand all IMPORT PROCESS Support the import process for cans and promotional materials. Prepare import documentation, coordinating with the different stakeholders involved and following up on shipments. Perform import cost calculations and review import files before submitting them to Finance for accounting. Monitor and follow up with customs brokers to ensure the import process runs smoothly. INVENTORY MANAGEMENT Process inventory movements in SAP. Manage orders and deliveries for the Service Station channel. Coordinate product replenishment for the office, Sales and Marketing warehouses, events, and third-party locations. INVOICING Support the invoicing process, including the issuance of credit notes. EXPERIENCE Your areas of knowledge and expertise that ",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    },
+    {
+      "title": "International Trade and Events Consultant Junior",
+      "company": "River Global",
+      "location": "Ciudad Evita, Provincia de Buenos Aires",
+      "source": "River Global Careers",
+      "url": "https://riverglobal.inhire.app/vagas/711210b1-5abc-4b1e-a344-33e7992fc9fe/international-trade-and-events-consultant-junior-argentina",
+      "score": 66,
+      "travel_minutes": 37.0,
+      "distance_km": 26.1,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "DIRECT_COMEX",
+      "description": "Consultoria junior vinculada a comercio internacional y eventos. Revisar presencialidad y requisitos. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "COMEX/importaciones/exportaciones directo",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje dentro del máximo de 60 minutos",
+        "Aprovecha formacion en RRII/comercio internacional: Comercio Internacional"
+      ]
+    },
+    {
+      "title": "Pasantia Customer Experience",
+      "company": "DHL Global Forwarding",
+      "location": "Buenos Aires y alrededores",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasant%C3%ADa-customer-experience-at-dhl-global-forwarding-4442269347",
+      "score": 56,
+      "travel_minutes": 16.0,
+      "distance_km": 11.3,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "ADJACENT",
+      "description": "Pasantia Customer Experience en DHL Global Forwarding. Rol de pasantia en logistica global y atencion al cliente. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "Area adyacente: logistica, operaciones o proveedores",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    },
+    {
+      "title": "Pasante OCC Ocean Commercial Center",
+      "company": "DHL Global Forwarding",
+      "location": "Retiro, CABA",
+      "source": "LinkedIn",
+      "url": "https://ar.linkedin.com/jobs/view/pasante-occ-ocean-commercial-center-at-dhl-global-forwarding-4334480241",
+      "score": 56,
+      "travel_minutes": 21.0,
+      "distance_km": 11.2,
+      "experience": "NO_ESPECIFICA_EXPERIENCIA",
+      "relevance": "ADJACENT",
+      "description": "Pasante para el area OCC Ocean Commercial Center en oficinas de Retiro, CABA. Logistica global y operaciones oceanicas. Fuente limitada por login/CAPTCHA; se conserva como pista para revision manual.",
+      "reasons": [
+        "Area adyacente: logistica, operaciones o proveedores",
+        "No especifica experiencia obligatoria",
+        "Pasantia, trainee, junior o intern",
+        "Viaje menor a 30 minutos desde Belgrano"
+      ]
+    }
+  ]
+}

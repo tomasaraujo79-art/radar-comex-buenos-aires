@@ -1,0 +1,171 @@
+app:
+  database_path: data/radar_comex.sqlite
+  reports_dir: reports
+  logs_dir: logs
+  request_timeout_seconds: 20
+  max_travel_minutes: 60
+  min_score: 55
+  reference_location: "Belgrano, CABA, Argentina"
+  timezone: "America/Argentina/Buenos_Aires"
+  daily_run_time: "09:00"
+
+candidate_profile:
+  name: Victoria Abril Campos
+  location: Belgrano, CABA, Argentina
+  target_roles:
+    - pasantia comercio exterior
+    - comercio exterior junior
+    - comex trainee
+    - importaciones
+    - exportaciones
+    - logistica internacional
+    - customer service import/export
+  education:
+    - Relaciones Internacionales
+    - Comercio Internacional
+    - Negociacion
+    - Finanzas
+    - Operatoria de Comercio Exterior
+  strengths:
+    - ingles avanzado
+    - Microsoft Office
+    - tareas administrativas
+    - atencion al publico
+    - manejo de documentacion
+    - bases de datos
+    - seguimiento de tareas
+    - comunicacion con visitantes internacionales
+
+search:
+  queries:
+    - comercio exterior junior buenos aires sin experiencia
+    - comercio internacional pasantia buenos aires
+    - comex trainee buenos aires
+    - import operations assistant buenos aires
+    - export operations assistant buenos aires
+    - customer service import buenos aires
+    - customer service export buenos aires
+    - freight forwarding junior buenos aires
+    - administrativo comex caba
+    - asistente comercio exterior buenos aires
+  locations:
+    - CABA
+    - Buenos Aires
+    - Vicente Lopez
+    - San Isidro
+    - Martinez
+    - Munro
+    - Saavedra
+    - Nunez
+    - Retiro
+    - Palermo
+    - Belgrano
+    - Barracas
+    - Monserrat
+    - Ezeiza
+
+sources:
+  jobint:
+    enabled: true
+    boards:
+      - name: Bumeran
+        base_url: https://www.bumeran.com.ar
+      - name: ZonaJobs
+        base_url: https://www.zonajobs.com.ar
+    max_pages_per_query: 2
+  linkedin_public:
+    enabled: true
+    max_pages_per_query: 1
+  indeed_public:
+    enabled: true
+    max_pages_per_query: 1
+  ats_watchlist:
+    enabled: true
+    pages:
+      - name: Red Bull Jobs
+        url: https://jobs.redbull.com/ar-es
+      - name: Siemens Energy Jobs
+        url: https://jobs.siemens-energy.com/en_US/jobs/SearchJobs/?3_115_3=180
+      - name: FedEx Careers
+        url: https://careers.fedex.com/search-jobs/Argentina/38870/2/3865483/34x0000/-64x0000/50/2
+      - name: Syngenta SmartRecruiters
+        url: https://jobs.smartrecruiters.com/SyngentaGroup
+      - name: DHL Careers
+        url: https://careers.dhl.com/global/en/search-results?keywords=Buenos%20Aires
+      - name: Puma Careers Argentina
+        url: https://about.puma.com/en/careers/jobs?locations=Argentina
+  known_public_jobs:
+    enabled: true
+    jobs:
+      - title: Operations Intern
+        company: Red Bull
+        location: Nunez, CABA
+        url: https://jobs.redbull.com/ar-es/operations-intern-ref33085k?lang=en
+        source: Red Bull Jobs
+        description: Support the import process, prepare import documentation, follow up shipments, import cost calculations and customs broker follow-up. Internship role in operations.
+      - title: Pasantia para sector Maritimo
+        company: DHL Global Forwarding
+        location: Retiro, CABA
+        url: https://ar.linkedin.com/jobs/view/pasant%C3%ADa-para-sector-mar%C3%ADtimo-at-dhl-global-forwarding-4446540152
+        source: LinkedIn
+        description: Pasantia para sector Maritimo. Estudiantes de Comercio Internacional, horario 10 a 14, modalidad hibrida 3 presencial y 2 home office, ingles intermedio.
+      - title: Pasante para Aduana
+        company: DHL Global Forwarding
+        location: Retiro, CABA
+        url: https://ar.linkedin.com/jobs/view/pasante-para-aduana-at-dhl-global-forwarding-4441909813
+        source: LinkedIn
+        description: Pasante de Aduana en Retiro, CABA, multinacional de logistica global. Rol de pasantia para sector aduana.
+      - title: Pasante OCC Ocean Commercial Center
+        company: DHL Global Forwarding
+        location: Retiro, CABA
+        url: https://ar.linkedin.com/jobs/view/pasante-occ-ocean-commercial-center-at-dhl-global-forwarding-4334480241
+        source: LinkedIn
+        description: Pasante para el area OCC Ocean Commercial Center en oficinas de Retiro, CABA. Logistica global y operaciones oceanicas.
+      - title: Pasante Comercio Exterior
+        company: Albaugh Latam South
+        location: San Isidro, Provincia de Buenos Aires
+        url: https://ar.linkedin.com/jobs/view/pasante-comercio-exterior-at-albaugh-latam-south-4445953516
+        source: LinkedIn
+        description: Pasante Comercio Exterior en San Isidro. Rol de pasantia relacionado a comercio exterior.
+      - title: Foreign Trade Trainee
+        company: PUMA Group
+        location: Buenos Aires y alrededores
+        url: https://ar.linkedin.com/jobs/view/foreign-trade-trainee-at-puma-group-4441229899
+        source: LinkedIn
+        description: Asistir al equipo de Comercio Exterior en la gestion operativa y administrativa de importaciones. Practicas, media jornada.
+      - title: Pasante Comercio Exterior y Logistica
+        company: CNH
+        location: Buenos Aires y alrededores
+        url: https://ar.linkedin.com/jobs/view/pasante-comercio-exterior-y-logistica-at-cnh-4428144279
+        source: LinkedIn
+        description: Pasante Comercio Exterior y Logistica. Rol de entrada relacionado con comercio exterior y logistica.
+      - title: Customer Services Import
+        company: Rhenus Logistics
+        location: Buenos Aires y alrededores
+        url: https://www.linkedin.com/jobs/search/?keywords=Customer%20Services%20Import%20Rhenus%20Logistics%20Buenos%20Aires
+        source: LinkedIn Search
+        description: Customer Services Import en operador logistico internacional. Revisar si exige experiencia antes de postular.
+      - title: International Trade and Events Consultant Junior
+        company: River Global
+        location: Ciudad Evita, Provincia de Buenos Aires
+        url: https://riverglobal.inhire.app/vagas/711210b1-5abc-4b1e-a344-33e7992fc9fe/international-trade-and-events-consultant-junior-argentina
+        source: River Global Careers
+        description: Consultoria junior vinculada a comercio internacional y eventos. Revisar presencialidad y requisitos.
+      - title: Airfreight Import Customer Service and Operations
+        company: Hellmann Worldwide Logistics
+        location: Buenos Aires y alrededores
+        url: https://ar.linkedin.com/jobs/view/airfreight-import-customer-service-operations-at-hellmann-worldwide-logistics-4434190139
+        source: LinkedIn
+        description: Airfreight Import Customer Service and Operations en operador logistico internacional. Revisar si exige experiencia antes de postular.
+      - title: Pasantia Customer Experience
+        company: DHL Global Forwarding
+        location: Buenos Aires y alrededores
+        url: https://ar.linkedin.com/jobs/view/pasant%C3%ADa-customer-experience-at-dhl-global-forwarding-4442269347
+        source: LinkedIn
+        description: Pasantia Customer Experience en DHL Global Forwarding. Rol de pasantia en logistica global y atencion al cliente.
+
+notifications:
+  email:
+    enabled: false
+  telegram:
+    enabled: false
